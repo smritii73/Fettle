@@ -6,7 +6,7 @@ const ContactUs = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
+  const [isSubmitted, setIsSubmitted] = useState(false);
   // Function to handle form submission
   const handleSubmit = (event) => {
     event.preventDefault();
